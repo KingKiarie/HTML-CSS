@@ -1,0 +1,45 @@
+.head-wrapper{
+    background-color: aqua;
+
+}
+.img header{
+    align-items: center;
+    align-content: center;
+}
+.nav-wrapper{
+
+}
+.main-wrapper{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    text-decoration:blueviolet underline;
+    font-family: fantasy;
+}
+.intro{
+    font-size: 1em;
+    font-family: fantasy;
+}
+.inner-box{
+    align-items: center;
+    width: 50%;
+    height: 50%;
+
+    border-top: 400px solid grey;
+    border-right: 70px solid green;
+    border-left: 70px solid blue;
+    border-bottom: 70px solid yellow;
+
+    padding-left: 70px solid blue;
+    padding-right: 40px solid green;
+    padding-top:20px solid blue ;
+    padding-bottom:20px solid blue ;
+
+    margin-left: 500px solid blue;
+    margin-right: 50px solid blue;
+    margin-top: 50px solid blue;
+    margin-bottom: 50px solid blue;
+}
+
+
