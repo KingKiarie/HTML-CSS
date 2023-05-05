@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 20px;
+
+}
 .head-wrapper{
     background-color: aqua;
 
@@ -10,7 +15,7 @@
 
 }
 .main-wrapper{
-    background-color: beige;
+    /* background-color: beige; */
 }
 h1{
     text-align: center;
@@ -21,25 +26,30 @@ h1{
     font-size: 1em;
     font-family: fantasy;
 }
-.inner-box{
+#inner-box{
     align-items: center;
     width: 50%;
     height: 50%;
 
-    border-top: 400px solid grey;
-    border-right: 70px solid green;
-    border-left: 70px solid blue;
-    border-bottom: 70px solid yellow;
+    border-top: 10px solid grey;
+    border-right: 10px solid green;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid yellow;
 
-    padding-left: 70px solid blue;
-    padding-right: 40px solid green;
-    padding-top:20px solid blue ;
-    padding-bottom:20px solid blue ;
+    padding-left: 80px solid rgb(232, 232, 238);
+    padding-right: 80px solid rgb(214, 218, 214);
+    padding-top:80px solid rgb(195, 195, 207) ;
+    padding-bottom:80px solid rgb(168, 168, 184) ;
 
-    margin-left: 500px solid blue;
-    margin-right: 50px solid blue;
-    margin-top: 50px solid blue;
-    margin-bottom: 50px solid blue;
+    margin-left: 10px solid blue;
+    margin-right: 10px solid blue;
+    margin-top: 10px solid blue;
+    margin-bottom: 10px solid blue;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
 }
 
 
