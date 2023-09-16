@@ -1,42 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Code|lab</title>
-        <meta charset="UTF-8">
-        <link rel="icon" href="">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header class="head-wrapper">
-            <img src="./images x.jpeg" class="img-header">
-            <nav class="nav-wrapper">
-                <div>
-                    <a href="code-red.html">code-red</a>
-                    <a href="guide.html">guide</a>
-                    <a href="about.html">About Us</a>
-                    <a href="contact.html">Contact us</a>
-                </div>
-            </nav>
-        </header>
-        <main class="main-wrapper">
-            <h1>Kioo-Keep it a hunnid</h1>
-            <div>
-                <p class="intro">Welcome to the coding space where your dreams and algorithms come true. In this page we  will take a brief tour guide of what we offer and get an in-depth understanding of the oddessey that awaits you my friend!</p>
-                <p>Welcome to your Quest!!</p>
-                <p>Below this box you will have a brief overview of the contents to expect as you begin your journey from zer0 to her0 &heartsuit;</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kioo|Enterprice</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <div id="home"></div>
+    <div class="Logo">
+      <img src="Kioo.png" alt="kioo logo" class="logo" />
+    </div>
+    <nav class="nav w-full h-6 flex justify-between">
+      <div class="mx-auto bg-slate-400 flex-row">
+        <a class="links" href=".#home"> Home </a>
+        <a class="links" href="#intro">Services</a>
+        <a class="links" href="#h2">About </a>
+        <a class="links" href="#contact">Contact </a>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <div class="intro">
+        <div class="section">
+          <h2>
+            Welcome to Kioo, a place where your dreams and values are met and
+            handled with utmost Care
+            <br />
+            <br /><br />
+            Remember We always keep it a hundred
+          </h2>
+          <a href="#"> <button class="btn">Click here to learn more</button></a>
+        </div>
+        <div class="section">
+          <img src="mirror.jpg" alt="mirror" id="logo" />
+        </div>
+      </div>
+      <div>
+        <h2 class="h2">Services Offered</h2>
+        <div id="intro">
+          <div>
+            <img src="Services.png" alt="Services-img" id="logo" />
+          </div>
+          <div class="list">
+            <ul>
+              <li>Web Development</li>
+              <li>IT Consultation</li>
+              <li>Freelance Development</li>
+              <li>UI/UX Designs</li>
+              <li>Software Development</li>
+              <li>Cyber Security</li>
+              <li>PC maintenance</li>
+              <li>Refurbishment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div>
+        <h2 id="h2">About Us</h2>
+        <div class="About">
+          <div class="AB">
+            <p>
+              We are a Company specialized in intergrating systems, providing
+              solutions and maximising customer Satisfaction. Kioo was
+              established in 2023 &copy;
+            </p>
+            <p>
+              We Hope for continuity and expansion both locally and
+              internationally.
+            </p>
+          </div>
+          <div>
+            <img src="about.jpg" alt="about us" id="logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div>
+        <h3>Contact</h3>
+        <div id="contact">
+          <form action="" id="form">
+            <div id="frm">
+              <h4>Your Name*</h4>
+              <input type="text" placeholder="Enter your name" />
             </div>
-            <div id="inner-box">
-                <h2>Contents</h2>
-                <p>
-                    <ul>
-                        <li><a href="">Computer Science</a></li>
-                        <li><a href="">Information technology</a></li>
-                        <li><a href="">Data science</a></li>
-                        <li><a href="">Information Statistics</a></li>
-                        <li><a href="">Acturial science</a></li>
-                    </ul>
-                </p>
+            <div id="frm">
+              <h4>Email address</h4>
+              <input type="email" placeholder="fghs#$@gmail.com" />
             </div>
-        </main>
-    </body>
+            <div id="txt">
+              <h4>Message</h4>
+              <textarea name="Message" id="text" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="futa">
+      Contact us more on:
+      <img src="svg/google.svg" alt="" class="svg" />
+      <img src="svg/instagram.png" alt="" class="svg" />
+      <img src="svg/linkedin.svg" alt="" class="svg" />
+      <img src="svg/twitter.svg" alt="" class="svg" />
+      <img src="svg/whatsapp.svg" alt="" class="svg" />
+    </div>
+    <div class="finish">Kioo Enterprise 2023 est.</div>
+  </footer>
 </html>
