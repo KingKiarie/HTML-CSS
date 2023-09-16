@@ -163,7 +163,7 @@ h3 {
     }
   }
 }
-.btn {
+.Btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,7 +173,7 @@ h3 {
   background-color: black;
   border-radius: 10px;
 }
-.btn:hover {
+.Btn:hover {
   color: white;
   background-color: red;
   cursor: pointer;
